@@ -26,6 +26,18 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+input[type="color" i], input[type="color" i]::-webkit-color-swatch-wrapper {
+	border-radius: 50%;
+	padding: 0;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
